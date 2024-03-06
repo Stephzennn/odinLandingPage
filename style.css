@@ -73,8 +73,8 @@ ul {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
   padding-bottom: 5%;
 }
 
@@ -131,11 +131,17 @@ button {
 .Box2 {
   display: flex;
   flex-direction: column;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+}
+
+.Box4 {
+  
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5%;
 }
-
 .underBox2First {
   font-size: 36px;
   color: #1f2937;
@@ -202,9 +208,51 @@ button {
 
 .quote {
   justify-self: flex-end;
-  padding-left: 10%;
+  
 }
+
 .Signature {
   font-style: normal;
   font-weight: bold;
+}
+
+.underBox4 {
+  background-color: #3882F6;
+  min-height: 120px;
+  border-radius: 10px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.underBox4Left{
+  padding-top: 3%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.underBox4Left .paragraphTitle {
+  font-size: 24px;
+  padding-bottom: 1%;
+}
+
+.underBox4Left .paragraphBody {
+  font-size: 15px;
+}
+
+
+.underBox4Right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: center;
+}
+.underBox4Right button {
+  border: #e5e7eb solid;
+  font-size: 20px;
+  height: 50px;
+  width:  160px;
 }
