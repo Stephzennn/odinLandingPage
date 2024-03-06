@@ -66,7 +66,11 @@ ul {
   padding-bottom: 5%;
 }
 .footer {
+  display: flex;
   text-align: center;
+  color: #e5e7eb;
+  align-items: center;
+  justify-content: center;
 }
 
 .Box3 {
@@ -83,17 +87,23 @@ ul {
   flex-direction: row;
   width: auto;
   gap: 6px;
+  flex-wrap: wrap;
 }
 
 .underMainLeftBox {
   display: flex;
   flex-direction: column;
+  width: 50%;
+}
+img {
+  max-width: 100%;
 }
 
 .paragraphTitle {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  min-width: 50%;
 }
 
 button {
@@ -118,12 +128,15 @@ button {
   display: flex;
   justify-content: center;
   
-  min-width: 50%;
+  min-width: 400px;
+  min-height: 400px;
   background-color: #6d747d;
   text-align: center;
   align-items: center;
   color: #f9faf8;
   margin-top: 70px;
+  max-width: 550px;
+  max-height: 550px;
   
 }
 
@@ -157,7 +170,8 @@ button {
   flex-wrap: wrap;
   
   
-  
+  padding-top: 0%;
+  margin-top: 0%;
   flex-direction: column;
   display: flex;
   align-self: baseline;
@@ -165,17 +179,26 @@ button {
 }
 
 .Image {
-  min-width: 97%;
-  min-height: 150px;
+  width: 200px;
+  height: 200px;
   
-  flex-grow: 1;
   background-color: #f9faf8;
-  
+  display: flex;
+  justify-content: center;
   border:3px solid;
   border-radius: 10px;
-  border-color:  #3882F6; ;
+  border-color:  #3882F6; 
+  padding: 0%;
+  margin: 0%;
 }
-
+.Image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 7px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
 .underBox2Second {
   display: flex;
   flex-direction: row;
@@ -183,6 +206,7 @@ button {
   min-width: auto;
   flex-wrap: wrap;
   justify-content: space-around; 
+  gap: 5px;
   flex: 1;
   padding-top: 10%;
   padding-bottom: 10%;
