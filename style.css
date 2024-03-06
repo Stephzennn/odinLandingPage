@@ -24,6 +24,11 @@ body {
   
 }
 
+
+.BoldBlack {
+  color:#1f2937;
+  font-weight: bold;
+}
 .ulUnderHeader {
   justify-self: flex-end;
   display: flex;
