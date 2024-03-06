@@ -30,7 +30,7 @@ body {
   padding-right: 40px;
 }
  
-a {
+a , .paragraphBody {
   color: #e5e7eb;
   font-size: 18px;
   text-decoration: none;
@@ -77,4 +77,26 @@ ul {
   flex-direction: column;
 }
 
+.paragraphTitle {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+button {
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  box-shadow: none;
+  font-weight: bolder;
+  color: #f9faf8;
+  font-size: 24px;
+  padding: 2%;
+  background-color: #3882F6;
+  height: 15%;
+  width:  25%;
+  border: none;
+  
+}
 
