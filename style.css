@@ -71,6 +71,11 @@ ul {
 
 .Box3 {
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
 }
 
 .main {
@@ -183,4 +188,18 @@ button {
   margin: 5%;
   margin-bottom: 7%;
   text-align: center;
+}
+.Signature {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.underBox3 {
+  font-style:36px ;
+  font-style: italic;
+}
+
+.Signature {
+  font-style: normal;
+  font-weight: bold;
 }
